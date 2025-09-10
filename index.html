@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JavaScript Concepts Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS & JavaScript Concepts Demo</h1>
+        <p>Exploring animations, functions, and their integration</p>
+    </header>
+    <section id="part1">
+        <h2>Part 1: CSS3 Transitions and Animations</h2>
+        
+        <div class="demo-container">
+            <div class="demo-box">
+                <h3>Button Hover Effects</h3>
+                <button class="hover-button">Hover Me</button>
+                <p>This button uses CSS transitions for smooth property changes on hover.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Keyframe Animation</h3>
+                <div class="animated-box"></div>
+                <p>This box uses CSS keyframes for a continuous pulsing animation.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Transform Transition</h3>
+                <div class="transition-demo"></div>
+                <p>Hover over this box to see transform and color transitions.</p>
+            </div>
+        </div>
+    </section>
+    <section id="part2">
+        <h2>Part 2: JavaScript Functions</h2>
+        
+        <div class="demo-container">
+            <div class="demo-box">
+                <h3>Function Parameters & Return Values</h3>
+                <button id="calculate-btn">Calculate Area</button>
+                <p id="calculation-result">Enter radius to calculate circle area</p>
+                <p>This demonstrates parameters, return values, and scope.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Scope Demonstration</h3>
+                <button id="scope-demo-btn">Test Scope</button>
+                <p id="scope-result">Check console for scope details</p>
+                <p>Demonstrates global vs local scope (check console).</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Reusable Functions</h3>
+                <button id="format-btn">Format Text</button>
+                <p id="format-text">This text will be formatted</p>
+                <p>Shows reusable functions with parameters.</p>
+            </div>
+        </div>
+    </section>
+    <section id="part3">
+        <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+        
+        <div class="demo-container">
+            <div class="demo-box">
+                <h3>JavaScript-Triggered Animation</h3>
+                <button id="animate-box-btn">Animate Box</button>
+                <div id="js-animated-box" class="animated-box"></div>
+                <p>JavaScript adds/removes classes to trigger animations.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Card Flip Animation</h3>
+                <div class="card" id="flip-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <p>Front</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Back</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="flip-card-btn">Flip Card</button>
+                <p>JavaScript toggles a class for 3D flip animation.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Modal Animation</h3>
+                <button id="open-modal-btn">Open Modal</button>
+                <div class="modal" id="demo-modal">
+                    <div class="modal-content">
+                        <h3>Animated Modal</h3>
+                        <p>This modal slides in with a fade effect.</p>
+                        <button id="close-modal-btn">Close</button>
+                    </div>
+                </div>
+                <p>JavaScript controls CSS transitions for modal.</p>
+            </div>
+            
+            <div class="demo-box">
+                <h3>Progress Bar Animation</h3>
+                <button id="start-progress-btn">Start Progress</button>
+                <button id="reset-progress-btn">Reset Progress</button>
+                <div class="progress-bar">
+                    <div class="progress" id="animated-progress"></div>
+                </div>
+                <p>JavaScript controls the width with CSS transition.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>CSS & JavaScript Concepts Demo - All concepts covered</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
